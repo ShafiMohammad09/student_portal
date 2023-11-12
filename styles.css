@@ -1,6 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
   @import url(https://db.onlinewebfonts.com/c/57145f7fc569b3cb7ef82f06b4407ee2?family=Stevie+Sans+W00+Light);
+  @import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu-grid-r.css');
 
 *{
     padding: 0;
@@ -36,24 +37,42 @@
     width: 24%;
 }
 .logo{
-   background-color: rgba(0, 0, 0, 0.515);
+   /* background-color: rgba(0, 0, 0, 0.111); */
    height: 13%;
    width: 100%;
-   margin-bottom: 5%;
+   margin:10px 0;
 }
 
 .menu-items{
-    background-color: #ffffe061;
+    /* background-color: #ffffe061; */
     height: 70%;
     margin:0 auto;
-    /* padding: 15px; */
+    padding: 15px;
     /* text-decoration: none; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 li{
+    
     list-style: none;
     font-size: 1.5em;
     font-family: "Stevie Sans W00 Light";
 } 
+.menu-items li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-items li i {
+    margin-right: 0.5rem;
+  }
+
+  .menu-items img {
+    margin-right: 0.5rem;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }

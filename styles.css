@@ -26,9 +26,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     height: 92vh;
-    width: 90vw;
+    width: 91vw;
     border-radius: 1em;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.503);
     overflow: hidden;
     margin: 1% 0;
 
@@ -48,9 +48,9 @@ body{
     /* background-color: rgb(233, 233, 189); */
     height: 100%;
     width:60%;
-    margin-top: 1.5em;
-    padding:0 2em;
-    background-color: rgb(255, 255, 255);
+    
+    padding:1.5em 2em;
+    background-color: rgba(255, 255, 255, 0.679);
     border-right: 1px solid rgba(0, 0, 0, 0.045);
 }
 .profile{
@@ -202,6 +202,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     height: 80%;
+    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -211,6 +212,7 @@ body{
 
 .profileCard-Data{
   margin-top: 40px;
+  padding: 0 1em;
   
 }
 
@@ -255,3 +257,81 @@ body{
   font-size: 1.1em;
   color: rgba(0, 0, 0, 0.822);
 }
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+body {
+  background-color: #fee440;
+}
+svg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.links {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1em;
+}
+a:hover {
+  text-decoration: underline;
+}
+a img.icon {
+  display: inline-block;
+  height: 1em;
+  margin: 0 0 -0.1em 0.3em;
+}
+
+          @keyframes rotate {
+         0% {
+                  transform: rotate(0deg);
+              }
+              100% {
+                  transform: rotate(360deg);
+              }
+          }
+          .out-top {
+              animation: rotate 20s linear infinite;
+              transform-origin: 13px 25px;
+          }
+          .in-top {
+              animation: rotate 10s linear infinite;
+              transform-origin: 13px 25px;
+          }
+          .out-bottom {
+              animation: rotate 25s linear infinite;
+              transform-origin: 84px 93px;
+          }
+          .in-bottom {
+              animation: rotate 15s linear infinite;
+              transform-origin: 84px 93px;
+          }
+      

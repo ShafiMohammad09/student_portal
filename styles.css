@@ -106,14 +106,7 @@ body{
     width: 100%;
     height: 100%;
   }
-  .group {
-    /* margin: 0 2%; */
-    display: flex;
-    line-height: 28px;
-    align-items: center;
-    position: relative;
-    min-width: 50%;
-  }
+ 
 
   .input {
     height: 40px;
@@ -142,16 +135,7 @@ body{
     height: 1rem;
   }
 
-  .search{
-    margin: 0 auto;
-    width: 100%;
-    height: 10%;
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-
-    /* background-color:rgba(7, 7, 7, 0.208); */
-  }
+  
    .heading h1{
     margin: 1em 0;
 
@@ -258,6 +242,7 @@ body{
   justify-content: space-between; 
 }
 .list-heading{
+  display: flex;
   font-size: 1.1em;
   color: rgba(0, 0, 0, 0.822);
 }
@@ -338,4 +323,10 @@ a img.icon {
               animation: rotate 15s linear infinite;
               transform-origin: 84px 93px;
           }
-      
+      .search-bar input{
+          height: 38px;
+          width: 70%;
+          border-radius: 20px;
+          padding: 0 5%;
+      }
+       

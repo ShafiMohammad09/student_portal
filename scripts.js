@@ -74,20 +74,7 @@ function showProfile(studentName) {
     }
 }
 
-// Add click event listeners to the student names
-document.addEventListener('DOMContentLoaded', function () {
-    const studentList = document.querySelector('.data-list');
 
-    for (const studentName in studentProfiles) {
-        const listItem = document.createElement('div');
-        listItem.classList.add('data-item');
-        listItem.textContent = studentName;
-        listItem.addEventListener('click', function () {
-            showProfile(studentName);
-        });
-        studentList.appendChild(listItem);
-    }
-});
 
 document.querySelectorAll('.m-item').forEach(function(item) {
     item.addEventListener('click', function () {
@@ -95,4 +82,22 @@ document.querySelectorAll('.m-item').forEach(function(item) {
     });
 });
 
+const input = document.querySelector('.search-input');
+const list = document.querySelector('#studentList');
+const items = Array.from(list.children);
+
+input.addEventListener('input', () => {
+  const query = input.value.toLowerCase();
+  
+  items.forEach(item => {
+    const name = item.children[1].textContent.toLowerCase();
+    const rollId = item.children[2].textContent.toLowerCase();
+    
+    if (name.includes(query) || rollId.includes(query)) {
+      item.style.display = 'block';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+});
 

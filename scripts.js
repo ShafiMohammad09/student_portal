@@ -17,7 +17,7 @@ const studentProfiles = {
         github: 'https://github.com/ShafiMohammad09'
     },
     Sashank: {
-        name: 'p Sashank rao',
+        name: 'P Sashank rao',
         age: 18,
         grade: 'A',
         profilePic: 'assets/profile-assets/sashank.jpg',
@@ -83,3 +83,5 @@ document.addEventListener('DOMContentLoaded', function () {
         studentList.appendChild(listItem);
     }
 });
+
+

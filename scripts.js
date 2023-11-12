@@ -14,7 +14,8 @@ const studentProfiles = {
         personalMail: 'shafimohammad5050@gmail.com',
         aicteCertificates: 3,
         linkedin: 'https://www.linkedin.com/in/shafi-mohammad9/',
-        github: 'https://github.com/ShafiMohammad09'
+        github: 'https://github.com/ShafiMohammad09',
+        instagram: 'https://www.instagram.com/iam_shafi_mohammad/'
     },
     Sashank: {
         name: 'P Sashank rao',
@@ -30,7 +31,8 @@ const studentProfiles = {
         personalMail: 'Sashank.perabathula@gmail.com',
         aicteCertificates: 3,
         linkedin: 'https://www.linkedin.com/in/janedoe/',
-        github: 'https://github.com/janedoe'
+        github: 'https://github.com/janedoe',
+        instagram:'https://www.instagram.com/psashankrao/'
     }
     // Add more profiles as needed
 };
@@ -47,6 +49,11 @@ function showProfile(studentName) {
             <div class="profileCard">
                 <img src="${selectedStudent.profilePic}" alt="${selectedStudent.name}'s Profile" class="profilePic">
                 <h2>${selectedStudent.name}</h2>
+                <div class='social'>
+                <p> <span class="ans"> <a href="${selectedStudent.linkedin}" target="_blank"><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/></a></span></p>
+                <p><span class="ans"> <a href="${selectedStudent.github}" target="_blank"><img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/></a></span></p>
+                <p><span class="ans"> <a href="${selectedStudent.instagram}" target="_blank"><img width="40" height="40" src="https://img.icons8.com/material-outlined/48/instagram-new--v1.png" alt="instagram-new--v1"/></a></span></p>
+                </div>
                <div class="profileCard-Data> 
                 <p class="age" >Age: <span class="ans">${selectedStudent.age}</span></p>
                 <p>Grade: <span class="ans"> ${selectedStudent.grade}</span> </p>
@@ -58,8 +65,6 @@ function showProfile(studentName) {
                 <p>College Mail: <span class="ans"> ${selectedStudent.collegeMail}</span></p>
                 <p>Personal Mail: <span class="ans"> ${selectedStudent.personalMail}</span></p>
                 <p>No. of AICTE Certificates: <span class="ans"> ${selectedStudent.aicteCertificates}</span></p>
-                <p>LinkedIn: <span class="ans"> <a href="${selectedStudent.linkedin}" target="_blank">${selectedStudent.linkedin}</a></span>/p>
-                <p>GitHub: <span class="ans"> <a href="${selectedStudent.github}" target="_blank">${selectedStudent.github}</a></span></p>
                 <!-- Add more profile details as needed -->
                 </div>
             </div>
@@ -82,6 +87,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         studentList.appendChild(listItem);
     }
+});
+
+document.querySelectorAll('.m-item').forEach(function(item) {
+    item.addEventListener('click', function () {
+        alert("sorry 😅, Can't reach at the moment");
+    });
 });
 
 

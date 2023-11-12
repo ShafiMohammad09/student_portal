@@ -243,6 +243,10 @@ body{
   color: #00000088;
 }
 
+.social {
+  display: flex;
+  
+}
 .bar-line{
   height: 0.5px;
   border: 1px solid rgba(0, 0, 0, 0.618);

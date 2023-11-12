@@ -1,0 +1,59 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+  @import url(https://db.onlinewebfonts.com/c/57145f7fc569b3cb7ef82f06b4407ee2?family=Stevie+Sans+W00+Light);
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.wrap{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu{
+    background-color: greenyellow;
+    height: 100%;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.hero{
+    background-color: rgb(233, 233, 189);
+    height: 100%;
+    width:60%
+}
+.profile{
+    background-color: rgba(0, 0, 0, 0.695);
+    height: 100%;
+    width: 24%;
+}
+.logo{
+   background-color: rgba(0, 0, 0, 0.515);
+   height: 13%;
+   width: 100%;
+   margin-bottom: 5%;
+}
+
+.menu-items{
+    background-color: #ffffe061;
+    height: 70%;
+    margin:0 auto;
+    /* padding: 15px; */
+    /* text-decoration: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    font-size: 1.5em;
+    font-family: "Stevie Sans W00 Light";
+} 

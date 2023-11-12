@@ -11,9 +11,9 @@
         <div class="menu">
             <div class="logo"><img
                  src="https://pragati.ac.in/wp-content/uploads/2022/10/pragati-logo-JK-2-1536x572.png"></div>
-           
+
             <ul class="menu-items">
-                
+
                 <li><img width="40" height="40" src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/external-dashboard-user-interface-kmg-design-detailed-outline-kmg-design.png" alt="external-dashboard-user-interface-kmg-design-detailed-outline-kmg-design"/><a href="#">Dashboard</a></li>
                 <li><img width="40" height="40" src="https://img.icons8.com/ios/50/speech-bubble-with-dots--v1.png" alt="speech-bubble-with-dots--v1"/><a href="#">Messenger</a></li>
                 <li><img width="40" height="40" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-Calendar-cenima-flatart-icons-outline-flatarticons.png" alt="external-Calendar-cenima-flatart-icons-outline-flatarticons"/><a href="#">Calendar</a></li>
@@ -41,15 +41,40 @@
                     <h2>Student</h2>
                     <h2>Teacher</h2>
                     <h2>Staff</h2>
-                </div>    
+                </div>
+                <div class="bar-line"></div>
+                <div class="list-headings">
+                    <h2 class="list-heading">S.No</h2>
+                    <h2 class="list-heading">Name</h2>
+                    <h2 class="list-heading">Roll ID</h2>
+                    <h2 class="list-heading">Gender</h2>
+                    <h2 class="list-heading">Email</h2>
+                </div>
                 <div class="data-list">
-                 
+                    <ul id="studentList" class="list">
+                        <!-- List of students goes here -->
+                        <li onclick="showProfile('shafi')">
+                            <div class="div">1.</div>
+                            <div>MD Shafi</div>
+                            <div>22A31A43G0</div>
+                            <div>male</div>
+                            <div>shafimohammad5050@gmail.com</div></li>
+
+                        <li onclick="showProfile('Sashank')">
+                            <div class="div">2.</div>
+                            <div>Sashank</div>
+                            <div>22A31A43G4</div>
+                            <div>male</div>
+                            <div>Sashank.perabathula@gmail.com</div></li>
+
+                        <!-- Add more students as needed -->
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="profile"></div>
-   </div> 
+        <div class="profile" id="profileContainer"></div>
+   </div>
    <!-- <a  href="https://icons8.com/icon/38977/chat-bubble">Chat Bubble</a> icon by <a href="https://icons8.com">Icons8</a> -->
-   <script></script>
+   <script src="scripts.js"></script>
 </body>
 </html>

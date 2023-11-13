@@ -1,0 +1,41 @@
+{
+    "shafi": {
+      "profilePic": "https://media.licdn.com/dms/image/D5603AQHlArcbb7sjJw/profile-displayphoto-shrink_400_400/0/1681261689525?e=1705536000&v=beta&t=hk74kpoBTe6mwY-XOavBuq0AZ8nJldcdfwSwL77Q3kw",
+      "name": "Mohammad Shafi",
+      "rollId": "22A31A43G0",
+      "department": "Artificial intelligence",
+      "cgpa": 9.1,
+      "age": 20,
+      "grade": "A",
+      "adhaarNo": "1234 5678 9012",
+      "mobNo": "+917013345662",
+      "collegeMail": "22A31A43G0@pragati.ac.in",
+      "personalMail": "Shafimohammad5050@gmail.com",
+      "aicteCertificates": 3,
+      "linkedin": "https://www.linkedin.com/in/shafi-mohammad9/",
+      "github": "https://github.com/ShafiMohammad09",
+      "instagram": "https://www.instagram.com/iam_shafi_mohammad/",
+      "drive": "https://drive.google.com/drive/my-drive"
+    },
+    "Sashank": {
+      "name": "P Sashank rao",
+      "age": 18,
+      "grade": "A",
+      "profilePic": "assets/profile-assets/sashank.jpg",
+      "adhaarNo": "9876 5432 1098",
+      "mobNo": "+917993341023",
+      "rollId": "22A31A43G4",
+      "department": "Artificial intelligence",
+      "cgpa": 9.2,
+      "collegeMail": "22a31a43g4@pragati.ac.in",
+      "personalMail": "Sashank.perabathula@gmail.com",
+      "aicteCertificates": 3,
+      "linkedin": "https://www.linkedin.com/in/janedoe/",
+      "github": "https://github.com/janedoe",
+      "instagram": "https://www.instagram.com/psashankrao/",
+      "drive": "https://drive.google.com/drive/my-drive"
+    }
+   
+    
+  }
+  

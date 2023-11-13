@@ -34,8 +34,30 @@
       "github": "https://github.com/janedoe",
       "instagram": "https://www.instagram.com/psashankrao/",
       "drive": "https://drive.google.com/drive/my-drive"
-    }
-   
+    },
+
+    "Radhika": {
+      "profilePic": "assets/profile-assets/radhika.jpg",
+      "name": "B Radhika",
+      "rollId": "22A31A43B8",
+     "department": "Artificial intelligence",
+     "cgpa": 8.81,
+     "age": 19,
+      "grade": "A",
+      "adhaarNo": "7406 7648 7797",
+      "mobNo": "8247044694",
+      "collegeMail": "22a31a43b8@pragati.ac.in",
+      "personalMail": "radhika214.b@gmail.com",
+       "aicteCertificates": 3,
+       "Linkedin": "https://www.linkedin.com/in/radhika-b-2b62b825a",
+       "github": "https://github.com",
+       "instagram": "https://www.instagram.com",
+      "drive": "https://drive.google.com/drive/my-drive"
+     }
     
-  }
+  
+    
+    
+    
+  }  
   

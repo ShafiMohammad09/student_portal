@@ -171,6 +171,10 @@ body{
     cursor: pointer;
     padding: 10px;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: ;
+    align-items: start;
+    gap: 10px;
 }
 
 /* .profile {

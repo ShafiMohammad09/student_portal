@@ -15,7 +15,8 @@ const studentProfiles = {
         aicteCertificates: 3,
         linkedin: 'https://www.linkedin.com/in/shafi-mohammad9/',
         github: 'https://github.com/ShafiMohammad09',
-        instagram: 'https://www.instagram.com/iam_shafi_mohammad/'
+        instagram: 'https://www.instagram.com/iam_shafi_mohammad/',
+        drive:'https://drive.google.com/drive/my-drive'
     },
     Sashank: {
         name: 'P Sashank rao',
@@ -32,7 +33,8 @@ const studentProfiles = {
         aicteCertificates: 3,
         linkedin: 'https://www.linkedin.com/in/janedoe/',
         github: 'https://github.com/janedoe',
-        instagram:'https://www.instagram.com/psashankrao/'
+        instagram:'https://www.instagram.com/psashankrao/',
+        drive:'https://drive.google.com/drive/my-drive'
     }
     // Add more profiles as needed
 };
@@ -50,9 +52,10 @@ function showProfile(studentName) {
                 <img src="${selectedStudent.profilePic}" alt="${selectedStudent.name}'s Profile" class="profilePic">
                 <h2>${selectedStudent.name}</h2>
                 <div class='social'>
-                <p> <span class="ans"> <a href="${selectedStudent.linkedin}" target="_blank"><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/></a></span></p>
-                <p><span class="ans"> <a href="${selectedStudent.github}" target="_blank"><img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/></a></span></p>
-                <p><span class="ans"> <a href="${selectedStudent.instagram}" target="_blank"><img width="40" height="40" src="https://img.icons8.com/material-outlined/48/instagram-new--v1.png" alt="instagram-new--v1"/></a></span></p>
+                <p> <span class="ans"> <a href="${selectedStudent.linkedin}" target="_blank"><img width="35" height="35" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/></a></span></p>
+                <p><span class="ans"> <a href="${selectedStudent.github}" target="_blank"><img width="35" height="35" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/></a></span></p>
+                <p><span class="ans"> <a href="${selectedStudent.instagram}" target="_blank"><img width="35" height="35" src="https://img.icons8.com/material-outlined/48/instagram-new--v1.png" alt="instagram-new--v1"/></a></span></p>
+                <p><span class="ans"> <a href="${selectedStudent.drive}" target="_blank"><img width="35" height="35" src="https://img.icons8.com/windows/32/google-drive.png" alt="google-drive"/></a></span></p>
                 </div>
                <div class="profileCard-Data> 
                 <p class="age" >Age: <span class="ans">${selectedStudent.age}</span></p>

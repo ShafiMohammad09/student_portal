@@ -53,8 +53,26 @@
        "github": "https://github.com",
        "instagram": "https://www.instagram.com",
       "drive": "https://drive.google.com/drive/my-drive"
+     },
+
+     "eswar": {
+      "profilePic": "assets/profile-assets/eswar.jpg",
+      "name": "M Eswar",
+      "rollId": "22A31A43F7",
+     "department": "Artificial intelligence",
+     "cgpa": 8.0 ,
+     "age": 18,
+      "grade": "A",
+      "adhaarNo": "3054 2432 7544",
+      "mobNo": "9704756216",
+      "collegeMail": "22a31a43F7@pragati.ac.in",
+      "personalMail": "easravan4@gmail.com",
+       "aicteCertificates": 3,
+       "Linkedin": "https://www.linkedin.com/in/eswar-madapani-804452259/",
+       "github": "https://github.com/eswarmadapani",
+       "instagram": "https://www.instagram.com/eswar_madapani/",
+      "drive": "https://drive.google.com/drive/my-drive"
      }
-    
   
     
     
